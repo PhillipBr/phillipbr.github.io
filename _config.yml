@@ -1,3 +1,22 @@
 theme: jekyll-theme-minimal
 title: Phillip's Portfolio
 description: Bookmark this to keep an eye on my project updates!
+
+# Configuration for the source and destination directories
+source: .
+destination: ./_site
+
+# Exclude these directories from the build
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .idea
+  - FLAMINGO_PROJECT
+  - PROJECT
+  - SAMPLEIDEAS
+  - portf.rar
+
+# Build settings
+markdown: kramdown
